@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Lac</title>
+    <link rel="stylesheet" href="css/global.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="header">
+        <nav class="navbar navbar-expand-md bg-light fixed-top">
+            <div class="container-fluid ">
+                <div class="img-header">
+                    <a href="#">
+                        <img src="./images/logo_lac.png" alt="lac-logo" width="170">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-plan">Convênios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-specialty">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-about">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="carousel main">
+        <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active img-one " data-bs-interval="3000">
+                </div>
+                <div class="carousel-item active img-two " data-bs-interval="3000">
+                </div>
+                <div class="carousel-item active img-three " data-bs-interval="3000">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="container text-center" id="section-plan">
+        <section class="plan">
+            <div class="plan-title mb-5">
+                <h1>CONVÊNIOS</h1>
+            </div>
+            <div class="plan d-xl-flex align-items-center">
+                <div class="plan-descripton ">
+                    <h1>Trabalhamos com as melhores operadoras de planos de saúde do país.</h1>
+                    <p>Nossa missão é te ajudar a escolher a melhor opção entre as operadoras de planos de
+                        saúde para que você possa tomar a melhor decisão na hora de contratar.
+                    </p>
+                    <div class="button-contact-plan">
+                        <a class="nav-link" href="#section-contact">
+                            <button class="btn btn-success">
+                                ENTRE EM CONTATO COM A GENTE
+                            </button>
+                        </a>
+                        </a>
+                    </div>
+                </div>
+                <div class="plan-imagens">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="images/Bradesco-saúde.png" alt="Bradesco Saúde">
+                                        <img src="images/Amil.png" alt="Amil">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <img src="images/unimed.png" alt="Unimed">
+                                        <img src="images/SulAmerica.png" alt="SulAmerica">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="images/Hapvida.png" alt="Hapvida">
+                                        <img src="images/casseb.jpg" alt="Hapvida">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <img src="images/Smile.png" alt="Smile">
+                                        <img src="images/Qualicorp.png" alt="Qualicorp">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="specialty" id="section-specialty">
+            <div class="specialty-title mb-5">
+                <h1>ESPECIALIDADES</h1>
+            </div>
+            <div class="specialty-images">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/cardiologia.webp" alt="Cardiologia" data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            data-bs-title="Cardiologia é a especialidade médica que se ocupa do diagnóstico e tratamento
+                            das doenças que acometem o coração bem como os outros componentes do sistema circulatório.">
+                        <label for="">Cardiologia</label>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/angiologia.png" alt="Angiologia" data-bs-toggle="tooltip"
+                            data-bs-placement="top" data-bs-title="A angiologia é a área da medicina que se dedica a prevenir, diagnosticar e tratar
+                            todas as doenças relacionadas ao sistema circulatório. Mais especificamente,
+                            os vasos linfáticos e os vasos sanguíneos (artérias e veias).">
+                        <label for="">Angiologia</label>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/foto_nutricao.webp" alt="Nutrição" data-bs-toggle="tooltip"
+                            data-bs-placement="top" data-bs-title="Nutrição é a especialidade da medicina que estuda o papel dos nutrientes no organismo 
+                            e as necessidades nutricionais do ser humano.">
+                        <label for="">Nutrição</label>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/Arritmologia-e-Avaliação-de-Marcapasso.webp"
+                            alt="Arritmologia e Avaliação de Marcapasso" data-bs-toggle="tooltip"
+                            data-bs-placement="top" data-bs-title="A Arritmologia é uma subespecialização da Cardiologia,
+                            que trata especificamente de arritmias (distúrbios elétricos do coração).">
+                        <label for="">Arritmologia e Avaliação de Marcapasso</label>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/clinica_medica.webp" alt="Clínica Médica" data-bs-toggle="tooltip"
+                            data-bs-placement="top" data-bs-title="Os constantes avanços das pesquisas na área médica têm provocado uma crescente
+                                especialização de seus profissionais, enfocando aspectos cada vez mais específicos do organismo humano.
+                            ">
+                        <label for="">Clínica Médica</label>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/endocrinologia.webp" alt="Endocrinologia" data-bs-toggle="tooltip"
+                            data-bs-placement="top" data-bs-title="O Endocrinologista é o médico que cuida dos transtornos das glândulas endócrinas. 
+                            As glândulas endócrinas são órgãos que secretam substâncias no sangue, conhecidas como hormônios.
+                           ">
+                        <label for="">Endocrinologia</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="section-about">
+            <div class="about-title mb-5">
+                <h1>SOBRE NÓS</h1>
+            </div>
+            <div class="text-about text-start">
+                <p>
+                    Fundada em 2022, o Laboratório LAC oferece a seus pacientes serviços nas especialidades de
+                    cardiologia, angiologia, nutrição, arritmologia e avaliação de marcapasso, clínica médica e
+                    endocrinologia, de forma integrada.
+                </p>
+            </div>
+            <div class="card-general d-md-flex">
+                <div class="card ">
+                    <div class="card-title">
+                        <h5>Missão</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-start">
+                            Oferecer aos pacientes e familiares a gestão de saúde e bem estar com excelência, humanidade
+                            e sustentabilidade, acompanhando os avanços científicos e contribuindo para a melhoria da
+                            qualidade de vida.
+                        </p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-title">
+                        <h5>Visão</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Ser reconhecida como uma clínica de excelência na gestão do conhecimento e compromisso com a
+                            vida,
+                            Respeitar o ser humano e dispensar os esforços necessários para
+                            tratá-lo com a dignidade que merece.
+                        </p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-title">
+                        <h5>Valores</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Excelência: busca contínua de recursos disponíveis para atender aos pacientes e familiares.
+                            Humanização: atendimento individualizado e com respeito ao bem- estar de pacientes,
+                            familiares e corpo clínico.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="section-contact">
+            <div class="contact-title mb-5">
+                <h1>Contato</h1>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="col-lg-12 col-xl-11">
+                        <h1>ENVIE SUA MENSAGEM</h1>
+                        <p>
+                            Para tirar dúvidas, dar sugestões ou obter mais informações sobre a Clínica LAB LAC,
+                            preencha o formulário.
+                        </p>
+                        <div class="contact-divider">
+                        </div>
+                        <strong>MARQUE SUA CONSULTA!</strong>
+                        <div class="button-contact mt-4">
+                            <a href="https://wa.me/+5571994049864/" target="_blank">
+                                <button class="btn btn-success w-100">
+                                    <box-icon type='logo' animation='tada' color="#fff" class="whatsapp"
+                                        name='whatsapp'>
+                                    </box-icon>
+                                    (71) 99999-9999
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div class="col-md-12">
+                        <form id="form-send-mail">
+                            <input type="text" class="form-control" placeholder="Nome" name="name" required>
+                            <input type="text" class="form-control" placeholder="Telefone" name="tel" required>
+                            <input type="email" class="form-control" placeholder="Email" name="email" required>
+                            <select class="form-control mb-3" name="subject" required>
+                                <option value="">Selecione o assunto</option>
+                                <option value="Parcerias">Parcerias</option>
+                                <option value="Convênios">Convênios</option>
+                                <option value="Dúvidas Marcação de consultas">Dúvidas sobre Marcação de consultas
+                                </option>
+                                <option value="Dúvidas sobre Especialidades">Dúvidas sobre Especialidades</option>
+                                <option value="Sugestões para nosso site">Sugestões para nosso site</option>
+                            </select>
+                            <div class="box-plan-checkbox">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <input class="form-check-input" type="checkbox" name="bradesco"
+                                            value="Bradesco">
+                                        <label class="form-check-label">Bradesco</label>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input class="form-check-input" type="checkbox" name="hapvida" value="Hapvida">
+                                        <label class="form-check-label">Hapvida</label>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input class="form-check-input" type="checkbox" name="amil" value="Amil">
+                                        <label class="form-check-label">Amil</label>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input class="form-check-input" type="checkbox" name="unimed" value="Unimed">
+                                        <label class="form-check-label">Unimed</label>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input class="form-check-input" type="checkbox" name="sulamerica"
+                                            value="Sul América">
+                                        <label class="form-check-label">Sul América</label>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input class="form-check-input" type="checkbox" name="saudecasseb"
+                                            value="Saúde Casseb">
+                                        <label class="form-check-label">Saúde Casseb</label>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input class="form-check-input" type="checkbox" name="qualicorp"
+                                            value="Quali Corp">
+                                        <label class="form-check-label">Quali Corp</label>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input class="form-check-input" type="checkbox" name="smilesaude"
+                                            value="Smile Saúde">
+                                        <label class="form-check-label">Smile Saúde</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <textarea class="form-control mb-1" rows="7" placeholder="Descrição, máximo 500 caracteres."
+                                name="description" maxlength="500" required>
+                            </textarea>
+                            <legend class="text-start"></legend>
+                            <button class="btn btn-primary w-100" id="send-mail">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="footer">
+        <div class="footer-image">
+            <a href="#">
+                <img src="./images/logo_lac.png" alt="LAC LAB" width="170">
+            </a>
+        </div>
+        <div class="footer-address">
+            <p> Av. Araújo Pinho, 292 - Canela, Salvador - BA, 40110-150</p>
+        </div>
+        <div class="footer-icon ">
+            <box-icon type='logo' color="#fff" name='facebook-circle'></box-icon>
+            <box-icon name='instagram' color="#fff" type='logo'></box-icon>
+        </div>
+    </section>
+    <section class="developers">
+        <p>Desenvolvido por Gabriel Sant' Anna</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+   
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
